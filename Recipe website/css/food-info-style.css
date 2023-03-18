@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+.logo{
+    font-size: 3rem;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    background: #F6C492;
+}
+.nav-container{
+    position: relative;
+    width: 100%;
+    height: 10rem;
+    background: rgba(253, 170, 86, 0.8);
+    box-shadow: 0rem .4rem .7rem .5rem rgba(0, 0, 0, 0.3);
+}
+.wrapper, .wrapper-2{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.back-button{
+    display: inline;
+    font-size: 5rem;
+    text-decoration: none;
+    background-color: rgba(253, 170, 86, 1);
+    border-radius: 1rem;
+    padding: 1rem;
+    position: absolute;
+    color: black;
+    top: 1rem;
+    left: 1rem;
+    box-shadow: 0rem .4rem .7rem .5rem rgba(0, 0, 0, 0.3);
+
+}
+.back-button a{
+    text-decoration: none;
+    color: black;
+}
+.wrapper-2{
+    padding-bottom: 2rem;
+    border: .5rem solid rgba(253, 170, 86, .2);
+    border-radius: 1.5rem;
+    box-shadow: 0rem 0rem 3rem black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul img{
+    width: 4.5rem;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.content-container{
+    padding: 4rem;
+    background-image: url(../img/bg-photo/background1-webp.png);
+    background-position: top;
+    height: 100%;
+}
+.upper-content{
+    display: flex;
+    margin-top: 2.0rem;
+    align-items: center;
+    justify-content: center;
+}
+.text-box{
+    font-size: 4rem;
+    margin-right: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+.best-dish{
+    color: rgba(253, 170, 86, 0.8);
+    text-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 1);
+}
+.ralp-place{
+    color: #5D3A00;
+    color: rgba(253, 170, 86, 0.8);
+    text-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 1);
+}
+.main-menu-container{
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+.food-picture{
+    margin-top: 2rem;
+    box-shadow: 0rem 0rem 3rem black;
+}
+.wrapper-container, .food-title{
+    display: flex;
+    justify-content: center;
+}
+.wrapper-container{
+    position: relative;
+}
+.food-title{
+    font-size: 3rem;
+}
+.ingredients{
+    display: flex;
+    vertical-align: top;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+.ingredients-container, .procedures-container{
+    font-size: 4rem;
+    text-align: center;
+}
+.procedures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.procedures-1{
+    margin-left: 7rem;
+    margin-right: 10rem;
+    font-size: 2rem;
+}
+
+  
+
+
+
+
+
+
